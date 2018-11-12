@@ -8,3 +8,6 @@ console.log(a);
 function fa(name){
   this.name=name;
 }
+fa.prototype.sayHello=function(){
+  console.log("hello"+this.name+"!")
+}
