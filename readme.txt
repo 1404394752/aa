@@ -11,3 +11,4 @@ function fa(name){
 fa.prototype.sayHello=function(){
   console.log("hello"+this.name+"!")
 }
+var  a=new fa("lily")
