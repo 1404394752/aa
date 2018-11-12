@@ -5,3 +5,6 @@ var c=b-a;
 }
 var c=0;
 console.log(a);
+function fa(name){
+  this.name=name;
+}
